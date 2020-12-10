@@ -5,7 +5,7 @@
     <meta charset='utf-8' />
     <!--meta name="viewport" content="width=device-width, user-scalable=no" /-->
     <!--meta name="apple-mobile-web-app-capable" content="yes" /-->
-    <title>ColorSandbox</title>
+    <title>&#x1f308;RainbowClicker</title>
 
     <!-- StyleSheet -->
     <link rel="StyleSheet" type="text/css" href="./css/colors.css">
@@ -36,54 +36,54 @@
     <div class="frame" id="colors" width="30%" height="20px">
       <table width="100%">
         <tbody>
-          <tr id="redTubeBase">
-            <td width="10%">■RedTube</td>
+          <tr id="redEssence">
+            <td width="10%">■RedEssence</td>
             <td >
-              <button onclick="singleColorMakeButtonClick(0)">Make:1</button>
+              <button onclick="singleEssenceMakeButtonClick(0)">Make:1</button>
             </td>
-            <td id="redTubeCounter" align="right">0</td>  
+            <td id="redEssenceCounter" align="right">0</td>  
           </tr>
-          <tr id="orangeTubeBase">
-            <td width="10%">■OrangeTube</td>
+          <tr id="orangeEssence">
+            <td width="10%">■OrangeEssence</td>
             <td >
-              <button onclick="singleColorMakeButtonClick(1)">Make:1</button>
+              <button onclick="singleEssenceMakeButtonClick(1)">Make:1</button>
             </td>
-            <td id="orangeTubeCounter" align="right">0</td>  
+            <td id="orangeEssenceCounter" align="right">0</td>  
           </tr>
-          <tr id="yellowTubeBase">
-            <td width="10%">■YellowTube</td>
+          <tr id="yellowEssence">
+            <td width="10%">■YellowEssence</td>
             <td >
-              <button onclick="singleColorMakeButtonClick(2)">Make:1</button>
+              <button onclick="singleEssenceMakeButtonClick(2)">Make:1</button>
             </td>
-            <td id="yellowTubeCounter" align="right">0</td>  
+            <td id="yellowEssenceCounter" align="right">0</td>  
           </tr>
-          <tr id="greenTubeBase">
-            <td width="10%">■GreenTube</td>
+          <tr id="greenEssence">
+            <td width="10%">■GreenEssence</td>
             <td >
-              <button onclick="singleColorMakeButtonClick(3)">Make:1</button>
+              <button onclick="singleEssenceMakeButtonClick(3)">Make:1</button>
             </td>
-            <td  id="greenTubeCounter" align="right">0</td>  
+            <td  id="greenEssenceCounter" align="right">0</td>  
           </tr>
-          <tr id="blueTubeBase">
-            <td width="10%">■BlueTube</td>
+          <tr id="blueEssence">
+            <td width="10%">■BlueEssence</td>
             <td >
-              <button onclick="singleColorMakeButtonClick(4)">Make:1</button>
+              <button onclick="singleEssenceMakeButtonClick(4)">Make:1</button>
             </td>
-            <td id="blueTubeCounter" align="right">0</td>  
+            <td id="blueEssenceCounter" align="right">0</td>  
           </tr>
-          <tr id="indigoTubeBase">
-            <td width="10%">■IndigoTube</td>
+          <tr id="indigoEssence">
+            <td width="10%">■IndigoEssence</td>
             <td >
-              <button onclick="singleColorMakeButtonClick(5)">Make:1</button>
+              <button onclick="singleEssenceMakeButtonClick(5)">Make:1</button>
             </td>
-            <td id="indigoTubeCounter" align="right">0</td>  
+            <td id="indigoEssenceCounter" align="right">0</td>  
           </tr>
-          <tr id="purpleTubeBase">
-            <td width="10%">■PurpleTube</td>
+          <tr id="purpleEssence">
+            <td width="10%">■PurpleEssence</td>
             <td >
-              <button  onclick="singleColorMakeButtonClick(6)">Make:1</button>
+              <button  onclick="singleEssenceMakeButtonClick(6)">Make:1</button>
             </td>
-            <td id="purpleTubeCounter" align="right">0</td>  
+            <td id="purpleEssenceCounter" align="right">0</td>  
           </tr>
         </tbody>
       </table>
@@ -91,54 +91,61 @@
     <div class="frame" id="generator" width="30%" height="20px">
       <table width="100%">
         <tbody>
-          <tr id="redTubeGenerator">
-            <td width="10%">■RedTubeGenerator</td>
+          <tr id="redGenerator">
+            <td width="10%">■RedGenerator</td>
             <td >
-              <button onclick="singleGeneratorMakeButtonClick(0)">Make:1</button>
+              <button id="redGeneratorButton" onclick="singleGeneratorMakeButtonClick(0)" disabled="true">Make:1</button>
             </td>
             <td id="redGeneratorCounter" align="right">0</td>  
           </tr>
-          <tr id="orangeTubeGenerator">
-            <td width="10%">■OrangeTubeGenerator</td>
+          <tr id="orangeGenerator">
+            <td width="10%">■OrangeGenerator</td>
             <td >
-              <button onclick="singleGeneratorMakeButtonClick(1)">Make:1</button>
+              <button id="orangeGeneratorButton" onclick="singleGeneratorMakeButtonClick(1)" disabled="true">Make:1</button>
             </td>
             <td id="orangeGeneratorCounter" align="right">0</td>  
           </tr>
-          <tr id="yellowTubeGenerator">
-            <td width="10%">■YellowTubeGenerator</td>
+          <tr id="yellowGenerator">
+            <td width="10%">■YellowGenerator</td>
             <td >
-              <button onclick="singleGeneratorMakeButtonClick(2)">Make:1</button>
+              <button id="yellowGeneratorButton" onclick="singleGeneratorMakeButtonClick(2)" disabled="true">Make:1</button>
             </td>
             <td id="yellowGeneratorCounter" align="right">0</td>  
           </tr>
-          <tr id="greenTubeGenerator">
-            <td width="10%">■GreenTubeGenerator</td>
+          <tr id="greenGenerator">
+            <td width="10%">■GreenGenerator</td>
             <td >
-              <button onclick="singleGeneratorMakeButtonClick(3)">Make:1</button>
+              <button id="greenGeneratorButton" onclick="singleGeneratorMakeButtonClick(3)" disabled="true">Make:1</button>
             </td>
             <td  id="greenGeneratorCounter" align="right">0</td>  
           </tr>
-          <tr id="blueTubeGenerator">
-            <td width="10%">■BlueTubeGenerator</td>
+          <tr id="blueGenerator">
+            <td width="10%">■BlueGenerator</td>
             <td >
-              <button onclick="singleGeneratorMakeButtonClick(4)">Make:1</button>
+              <button id="blueGeneratorButton" onclick="singleGeneratorMakeButtonClick(4)" disabled="true">Make:1</button>
             </td>
             <td id="blueGeneratorCounter" align="right">0</td>  
           </tr>
-          <tr id="indigoTubeGenerator">
-            <td width="10%">■IndigoTubeGenerator</td>
+          <tr id="indigoGenerator">
+            <td width="10%">■IndigoGenerator</td>
             <td >
-              <button onclick="singleGeneratorMakeButtonClick(5)">Make:1</button>
+              <button id="indigoGeneratorButton" onclick="singleGeneratorMakeButtonClick(5)" disabled="true">Make:1</button>
             </td>
             <td id="indigoGeneratorCounter" align="right">0</td>  
           </tr>
-          <tr id="purpleTubeGenerator">
-            <td width="10%">■PurpleTubeGenerator</td>
+          <tr id="purpleGenerator">
+            <td width="10%">■PurpleGenerator</td>
             <td >
-              <button  onclick="singleGeneratorMakeButtonClick(6)">Make:1</button>
+              <button id="purpleGeneratorButton" onclick="singleGeneratorMakeButtonClick(6)" disabled="true">Make:1</button>
             </td>
             <td id="purpleGeneratorCounter" align="right">0</td>  
+          </tr>
+          <tr id="allGenerator">
+            <td width="10%">■AllGenerator</td>
+            <td >
+              <button id="allGeneratorButton" onclick="allGeneratorMakeButtonClick()" disabled="true">Cost:&#x1f308;1</button>
+            </td>
+            <td id="allGeneratorCounter" align="right">0</td>  
           </tr>
         </tbody>
       </table>

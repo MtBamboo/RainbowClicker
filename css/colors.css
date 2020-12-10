@@ -17,92 +17,97 @@
 	border-radius: 2px;
 }
 
+.generatorButton
+{
+	
+}
+
 /* id */
 #title
 {
 	text-align: center;
 }
 
-#redTubeBase
+#redEssence
 {
 	color: #c6001c;
 	border:solid 2px red;
 }
 
-#orangeTubeBase
+#orangeEssence
 {
 	color: #E67928;
 	border:solid 2px;
 }
 
-#yellowTubeBase
+#yellowEssence
 {
 	color: #E3C700;
 	border:solid 2px;
 }
 
-#greenTubeBase
+#greenEssence
 {
 	color: #00B66E;
 	border:solid 2px;
 }
 
-#blueTubeBase
+#blueEssence
 {
 	color: #006AB6;
 	border:solid 2px;
 }
 
-#indigoTubeBase
+#indigoEssence
 {
 	color: #134A63;
 	border:solid 2px;
 }
 
-#purpleTubeBase
+#purpleEssence
 {
 	color: #7C4B8D;
 	border:solid 2px;
 }
 
 /* generator */
-#redTubeGenerator
+#redGenerator
 {
 	color: #c6001c;
 	border:solid 2px red;
 }
 
-#orangeTubeGenerator
+#orangeGenerator
 {
 	color: #E67928;
 	border:solid 2px;
 }
 
-#yellowTubeGenerator
+#yellowGenerator
 {
 	color: #E3C700;
 	border:solid 2px;
 }
 
-#greenTubeGenerator
+#greenGenerator
 {
 	color: #00B66E;
 	border:solid 2px;
 }
 
-#blueTubeGenerator
+#blueGenerator
 {
 	color: #006AB6;
 	border:solid 2px;
 }
 
-#indigoTubeGenerator
+#indigoGenerator
 {
 	color: #134A63;
 	border:solid 2px;
 }
 
-#purpleTubeGenerator
+#purpleGenerator
 {
 	color: #7C4B8D;
 	border:solid 2px;
