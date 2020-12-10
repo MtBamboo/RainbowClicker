@@ -13,7 +13,7 @@
     <script type="text/javascript" src='./js/colors.js'></script>
 
   </head>
-  <body>
+  <body = onload="startApp()">
     <div id="title">Rainbow Clicker</div>
     <!-- Parameters -->
     <div class="frame" id="params" width="100px" height="100px">
@@ -21,9 +21,11 @@
         <tbody>
           <tr>
             <td width="20%">&#x1f308;Rainbow</td>
-            <td>0</td>
+            <td >
+              <button id="rainbowMakeButton" onclick="singleRainbowMakeButtonClick()">Make:1</button>
+            </td>
+            <td id="rainbowCounter" align="right">0</td>
           </tr>
-          
           <tr>
             <td width="20%">&#x1f48e;Diamond</td>
             <td>0</td>
@@ -34,20 +36,56 @@
     <div class="frame" id="colors" width="30%" height="20px">
       <table width="100%">
         <tbody>
-          <tr>
-            <td width="10%">RedTube</td>
-            <td>0</td>
-            <td align="right">
-              <button>Cost:1</button>
+          <tr id="redTubeBase">
+            <td width="10%">■RedTube</td>
+            <td >
+              <button onclick="singleColorMakeButtonClick(0)">Make:1</button>
             </td>
+            <td id="redTubeCounter" align="right">0</td>  
           </tr>
-          <tr>
-            <td>OrangeTube</td>
-            <td>0</td>
-            <td align="right">
-              <button>Cost:1</button>
+          <tr id="orangeTubeBase">
+            <td width="10%">■OrangeTube</td>
+            <td >
+              <button onclick="singleColorMakeButtonClick(1)">Make:1</button>
             </td>
+            <td id="orangeTubeCounter" align="right">0</td>  
           </tr>
+          <tr id="yellowTubeBase">
+            <td width="10%">■YellowTube</td>
+            <td >
+              <button onclick="singleColorMakeButtonClick(2)">Make:1</button>
+            </td>
+            <td id="yellowTubeCounter" align="right">0</td>  
+          </tr>
+          <tr id="greenTubeBase">
+            <td width="10%">■GreenTube</td>
+            <td >
+              <button onclick="singleColorMakeButtonClick(3)">Make:1</button>
+            </td>
+            <td  id="greenTubeCounter" align="right">0</td>  
+          </tr>
+          <tr id="blueTubeBase">
+            <td width="10%">■BlueTube</td>
+            <td >
+              <button onclick="singleColorMakeButtonClick(4)">Make:1</button>
+            </td>
+            <td id="blueTubeCounter" align="right">0</td>  
+          </tr>
+          <tr id="indigoTubeBase">
+            <td width="10%">■IndigoTube</td>
+            <td >
+              <button onclick="singleColorMakeButtonClick(5)">Make:1</button>
+            </td>
+            <td id="indigoTubeCounter" align="right">0</td>  
+          </tr>
+          <tr id="purpleTubeBase">
+            <td width="10%">■PurpleTube</td>
+            <td >
+              <button  onclick="singleColorMakeButtonClick(6)">Make:1</button>
+            </td>
+            <td id="purpleTubeCounter" align="right">0</td>  
+          </tr>
+
         </tbody>
       </table>
     </div>

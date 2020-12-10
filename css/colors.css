@@ -23,7 +23,44 @@
 	text-align: center;
 }
 
-#redTube
+#redTubeBase
 {
+	color: #c6001c;
 	border:solid 2px red;
+}
+
+#orangeTubeBase
+{
+	color: #E67928;
+	border:solid 2px;
+}
+
+#yellowTubeBase
+{
+	color: #E3C700;
+	border:solid 2px;
+}
+
+#greenTubeBase
+{
+	color: #00B66E;
+	border:solid 2px;
+}
+
+#blueTubeBase
+{
+	color: #006AB6;
+	border:solid 2px;
+}
+
+#indigoTubeBase
+{
+	color: #134A63;
+	border:solid 2px;
+}
+
+#purpleTubeBase
+{
+	color: #7C4B8D;
+	border:solid 2px;
 }
