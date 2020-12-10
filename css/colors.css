@@ -1,0 +1,29 @@
+
+
+/* class */
+.frame
+{
+	margin: 10px 5px;
+	padding: 10px 5px;
+	border:solid 2px;
+	border-color: silver;
+	border-radius: 4px;
+	background-color: #FFFFEE;
+	color: indigo;
+}
+
+.colorButton
+{
+	border-radius: 2px;
+}
+
+/* id */
+#title
+{
+	text-align: center;
+}
+
+#redTube
+{
+	border:solid 2px red;
+}

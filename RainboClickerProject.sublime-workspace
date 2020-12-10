@@ -1,0 +1,292 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"align",
+				"text-align\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"border-c",
+				"border-color\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install package control",
+				"Package Control: Install Package"
+			],
+			[
+				"exporthtml",
+				"Export to HTML: Show Export Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install Package ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/denon/Documents/GitHub/RainbowClicker",
+		"/C/Users/denon/Documents/GitHub/RainbowClicker/css",
+		"/C/Users/denon/Documents/GitHub/RainbowClicker/js"
+	],
+	"file_history":
+	[
+		"/C/Users/denon/workspace_webgame/phinajs/Clicker/colorSandbox.html",
+		"/C/Users/denon/workspace_webgame/phinajs/Clicker/js/colors.js",
+		"/C/Users/denon/workspace_webgame/phinajs/Clicker/css/colors.css",
+		"/C/Users/denon/workspace_webgame/phinajs/Clicker/js/clicker_update.js",
+		"/C/Users/denon/workspace_webgame/phinajs/Clicker/RainbowClickerSpecification.txt",
+		"/C/Users/denon/workspace_webgame/phinajs/Clicker/index.html",
+		"/C/Users/denon/workspace_webgame/phinajs/Clicker/css/clicker.css",
+		"/C/Users/denon/workspace_webgame/phinajs/Clicker/index_clicker_01.html",
+		"/C/Users/denon/workspace_webgame/phinajs/Clicker/js/phina.js",
+		"/C/Users/denon/workspace_webgame/phinajs/Clicker/js/phina_sample_01.js",
+		"/C/Users/denon/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/denon/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/denon/workspace_webgame/phinajs/sublimetext/ClickerProject",
+		"/C/Users/denon/workspace_webgame/phinajs/Clicker/js/maze_02.js",
+		"/C/Users/denon/workspace_webgame/phinajs/PhinaJS_Sample_Games-master/js/phina_sample_02.js",
+		"/C/Users/denon/workspace_webgame/phinajs/PhinaJS_Sample_Games-master/index_Phina_02.html",
+		"/C/Users/denon/workspace_webgame/phinajs/PhinaJS_Sample_Games-master/index_Phina_06.html",
+		"/C/Users/denon/workspace_webgame/phinajs/PhinaJS_Sample_Games-master/js/phina_sample_06.js",
+		"/C/Users/denon/workspace_webgame/phinajs/PhinaJS_Sample_Games-master/index_Phina_01.html",
+		"/C/Users/denon/workspace_webgame/phinajs/phinajs/main.js",
+		"/C/Users/denon/workspace_webgame/phinajs/phinajs/index.html",
+		"/C/Users/denon/Desktop/LinearProfile課題共有結果_20201001_takeyama.txt",
+		"/C/Users/denon/workspace_javascript/index.html",
+		"/C/Users/denon/Desktop/Projects/Running/新機種関連/FW/Protect/DeviceUnlocik.bat",
+		"/C/Users/denon/Desktop/Projects/Running/新機種関連/FW/Protect/protectmemo.txt",
+		"/C/Users/denon/Desktop/Projects/Running/新機種関連/FW/Protect/test.bat",
+		"/C/Users/denon/workspace_v9/buttonled_MSP_EXP432E401Y_tirtos_ccs/Debug/buttonled_MSP_EXP432E401Y_tirtos_ccs.map",
+		"/C/Users/denon/Desktop/振り出し/TraceLog30_huri.log",
+		"/H/TraceLog05.log",
+		"/C/Users/denon/workspace_v9/SDR1000Project/Debug/SDR1000Project.map",
+		"/H/Linear_demo_S3close_semifinaol.prdcommon.xml",
+		"/C/Users/denon/AppData/Local/Temp/LinearProfile課題共有結果_20201001_takeyama.txt",
+		"/C/Users/denon/workspace_v9/SDR1000Project/Manager/HeatingManager.h",
+		"/C/Users/denon/Desktop/2相変更点メモ",
+		"/C/Users/denon/Desktop/DR500V_FWWriteDoc_20201006_takeyama.txt",
+		"/C/Users/denon/AppData/Local/Temp/電気関係課題201001.txt",
+		"/C/Users/denon/Desktop/DenonMailAddresses2.txt",
+		"/H/HeatingManager.h",
+		"/H/SDR1000/SDR1000Project/Profile/LinearProfile.c",
+		"/C/Users/denon/workspace_r8c/VHP/trunk/VHP500/fvector.c",
+		"/C/Program Files/Sublime Text 3/create.txt",
+		"/C/Users/denon/Desktop/mount.c",
+		"/C/Users/denon/AppData/Local/Temp/VHP質問事項.txt",
+		"/C/Users/denon/workspace_v9/SDR1000Project/Object/TopHeaterObject.c",
+		"/C/Users/denon/workspace_v9/SDR1000Project/Object/USBSerialObject.c",
+		"/C/Users/denon/workspace_v9/SDR1000Project/.cproject",
+		"/C/Users/denon/Desktop/SDR1000Project/Manager/DeviceControlManager.c",
+		"/C/Users/denon/workspace_v9/SDR1000Project/Manager/FlashManager.c",
+		"/C/Users/denon/workspace_r8c/RD500V/Newest/trunk/RD500V_001_lib/fvector.c",
+		"/F/SDR1000Project/SystemController.c",
+		"/C/Users/denon/Desktop/SDR-1000_次回測定内容_takeyama.txt",
+		"/C/Users/denon/Desktop/SDR1000ブローヒーター実験メモ.txt",
+		"/C/Users/denon/Desktop/Myrica/README.md",
+		"/C/Users/denon/workspace_v9/SDR1000Project/Object/AreaHeaterObject.c",
+		"/C/Users/denon/workspace_v9/SDR1000Project/CRC16Utility.c",
+		"/C/Users/denon/workspace_v9/SDR1000Project/CRC16Utility.h",
+		"/C/Users/denon/workspace_v9/SDR1000Project/Object/AreaHeaterObject.h",
+		"/C/Users/denon/Desktop/2020/nepcon/インターネプコン2020_takeyama.txt",
+		"/C/Users/denon/Desktop/Rd1000/SpeedTableMaker/SpeedTableMaker/bin/Debug/ThetaSpeedTable.c",
+		"/F/TraceLog29_before17oclock.log",
+		"/C/Users/denon/workspace_v9/ZCommunicationTestProject/.cproject",
+		"/C/Users/denon/workspace_v9/ZCommunicationTestProject/.project",
+		"/C/Users/denon/workspace_v9/ZCommunicationTestProject/.ccsproject",
+		"/C/Users/denon/AppData/Local/Temp/CameraCom.cs",
+		"/C/Users/denon/workspace_r8c/SVCU/Svcu/main.h",
+		"/C/Users/denon/Desktop/インターネプコン2020_takeyama.txt",
+		"/C/Users/denon/AppData/Local/Temp/RobotManager.c-revHEAD.svn000.tmp.c",
+		"/C/Users/denon/workspace_v9/FullscratchProject/Manager/HeatingManager.c",
+		"/C/DENON/SYSTEM/setConfiguration - コピー",
+		"/C/Users/denon/Desktop/SerialTestProject.dat",
+		"/C/Users/denon/workspace_v9/SerialProject/.project",
+		"/C/Users/denon/workspace_v9/SerialProject/.cproject",
+		"/C/Users/denon/workspace_v9/SerialProject/.ccsproject",
+		"/C/Users/denon/workspace_v9/SerialProject/msp432e401y.cmd",
+		"/C/Users/denon/Desktop/RD1000_boughtDevices_takeyama_20191106.txt",
+		"/C/Users/denon/workspace_v9/FullscratchProject/Utility/RD1000ADCUtil.h",
+		"/C/Users/denon/Desktop/Rd1000/SpeedTableMaker/SpeedTableMaker/bin/Debug/Z2SpeedTable.c",
+		"/C/Users/denon/AppData/Local/Temp/ADCManager.h-revHEAD.svn000.tmp.h",
+		"/C/ti/ccs920/ccs/eclipse/ccstudio.ini",
+		"/F/OldAutoPlus/RD500AP_StageFW/AutoPlusFW_Whole/trunk/AutoPlusFw/initsct.h",
+		"/F/OldAutoPlus/RD500AP_StageFW/AutoPlusFW_Whole/trunk/AutoPlusFw/MotorPulseUnit.c",
+		"/F/OldAutoPlus/RD500AP_StageFW/AutoPlusFW_Whole/trunk/AutoPlusFw/Speed.c",
+		"/C/Users/denon/Desktop/TimerManager_before.c",
+		"/C/Users/denon/Desktop/TimerManager_after.c",
+		"/C/Users/denon/Desktop/Projects/Running/memory_notGPTMinterrupt.dat",
+		"/C/Users/denon/Desktop/office2013",
+		"/C/Users/denon/Desktop/Office.txt",
+		"/C/Users/denon/AppData/Local/Temp/Office.txt",
+		"/C/Users/denon/AppData/Local/Temp/Office-1.txt"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "RainboClickerProject.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 320.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
