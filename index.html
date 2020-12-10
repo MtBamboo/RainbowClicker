@@ -1,20 +1,147 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>canvasで図形を描く</title>
-    <script src='./js/clicker_update.js'></script>
-    <link rel="stylesheet" href="css/clicker.css">
-</head>
-<!--body onLoad="test()"-->
-<body>
-<h2>Canvasで図形を描く</h2>
-<canvas id="calendar" style="background-color:#AAAAAA;" width="500px" height="500px">
-図形を表示するには、canvasタグをサポートしたブラウザが必要です。
-</canvas>
+    <meta charset='utf-8' />
+    <!--meta name="viewport" content="width=device-width, user-scalable=no" /-->
+    <!--meta name="apple-mobile-web-app-capable" content="yes" /-->
+    <title>ColorSandbox</title>
 
-<div><button class="colorButton" onclick="cUpdate()">Update</button></div>
+    <!-- StyleSheet -->
+    <link rel="StyleSheet" type="text/css" href="./css/colors.css">
+    <!-- JavaScript -->
+    <script type="text/javascript" src='./js/colors.js'></script>
 
-<a href="colorSandbox.html">colorSandbox</a>
-</body>
+  </head>
+  <body = onload="startApp()">
+    <div id="title">Rainbow Clicker</div>
+    <!-- Parameters -->
+    <div class="frame" id="params" width="100px" height="100px">
+      <table width="100%">
+        <tbody>
+          <tr>
+            <td width="20%">&#x1f308;Rainbow</td>
+            <td >
+              <button id="rainbowMakeButton" onclick="singleRainbowMakeButtonClick()">Make:1</button>
+            </td>
+            <td id="rainbowCounter" align="right">0</td>
+          </tr>
+          <tr>
+            <td width="20%">&#x1f48e;Diamond</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="frame" id="colors" width="30%" height="20px">
+      <table width="100%">
+        <tbody>
+          <tr id="redTubeBase">
+            <td width="10%">■RedTube</td>
+            <td >
+              <button onclick="singleColorMakeButtonClick(0)">Make:1</button>
+            </td>
+            <td id="redTubeCounter" align="right">0</td>  
+          </tr>
+          <tr id="orangeTubeBase">
+            <td width="10%">■OrangeTube</td>
+            <td >
+              <button onclick="singleColorMakeButtonClick(1)">Make:1</button>
+            </td>
+            <td id="orangeTubeCounter" align="right">0</td>  
+          </tr>
+          <tr id="yellowTubeBase">
+            <td width="10%">■YellowTube</td>
+            <td >
+              <button onclick="singleColorMakeButtonClick(2)">Make:1</button>
+            </td>
+            <td id="yellowTubeCounter" align="right">0</td>  
+          </tr>
+          <tr id="greenTubeBase">
+            <td width="10%">■GreenTube</td>
+            <td >
+              <button onclick="singleColorMakeButtonClick(3)">Make:1</button>
+            </td>
+            <td  id="greenTubeCounter" align="right">0</td>  
+          </tr>
+          <tr id="blueTubeBase">
+            <td width="10%">■BlueTube</td>
+            <td >
+              <button onclick="singleColorMakeButtonClick(4)">Make:1</button>
+            </td>
+            <td id="blueTubeCounter" align="right">0</td>  
+          </tr>
+          <tr id="indigoTubeBase">
+            <td width="10%">■IndigoTube</td>
+            <td >
+              <button onclick="singleColorMakeButtonClick(5)">Make:1</button>
+            </td>
+            <td id="indigoTubeCounter" align="right">0</td>  
+          </tr>
+          <tr id="purpleTubeBase">
+            <td width="10%">■PurpleTube</td>
+            <td >
+              <button  onclick="singleColorMakeButtonClick(6)">Make:1</button>
+            </td>
+            <td id="purpleTubeCounter" align="right">0</td>  
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="frame" id="generator" width="30%" height="20px">
+      <table width="100%">
+        <tbody>
+          <tr id="redTubeGenerator">
+            <td width="10%">■RedTubeGenerator</td>
+            <td >
+              <button onclick="singleGeneratorMakeButtonClick(0)">Make:1</button>
+            </td>
+            <td id="redGeneratorCounter" align="right">0</td>  
+          </tr>
+          <tr id="orangeTubeGenerator">
+            <td width="10%">■OrangeTubeGenerator</td>
+            <td >
+              <button onclick="singleGeneratorMakeButtonClick(1)">Make:1</button>
+            </td>
+            <td id="orangeGeneratorCounter" align="right">0</td>  
+          </tr>
+          <tr id="yellowTubeGenerator">
+            <td width="10%">■YellowTubeGenerator</td>
+            <td >
+              <button onclick="singleGeneratorMakeButtonClick(2)">Make:1</button>
+            </td>
+            <td id="yellowGeneratorCounter" align="right">0</td>  
+          </tr>
+          <tr id="greenTubeGenerator">
+            <td width="10%">■GreenTubeGenerator</td>
+            <td >
+              <button onclick="singleGeneratorMakeButtonClick(3)">Make:1</button>
+            </td>
+            <td  id="greenGeneratorCounter" align="right">0</td>  
+          </tr>
+          <tr id="blueTubeGenerator">
+            <td width="10%">■BlueTubeGenerator</td>
+            <td >
+              <button onclick="singleGeneratorMakeButtonClick(4)">Make:1</button>
+            </td>
+            <td id="blueGeneratorCounter" align="right">0</td>  
+          </tr>
+          <tr id="indigoTubeGenerator">
+            <td width="10%">■IndigoTubeGenerator</td>
+            <td >
+              <button onclick="singleGeneratorMakeButtonClick(5)">Make:1</button>
+            </td>
+            <td id="indigoGeneratorCounter" align="right">0</td>  
+          </tr>
+          <tr id="purpleTubeGenerator">
+            <td width="10%">■PurpleTubeGenerator</td>
+            <td >
+              <button  onclick="singleGeneratorMakeButtonClick(6)">Make:1</button>
+            </td>
+            <td id="purpleGeneratorCounter" align="right">0</td>  
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>

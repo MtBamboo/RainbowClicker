@@ -64,3 +64,46 @@
 	color: #7C4B8D;
 	border:solid 2px;
 }
+
+/* generator */
+#redTubeGenerator
+{
+	color: #c6001c;
+	border:solid 2px red;
+}
+
+#orangeTubeGenerator
+{
+	color: #E67928;
+	border:solid 2px;
+}
+
+#yellowTubeGenerator
+{
+	color: #E3C700;
+	border:solid 2px;
+}
+
+#greenTubeGenerator
+{
+	color: #00B66E;
+	border:solid 2px;
+}
+
+#blueTubeGenerator
+{
+	color: #006AB6;
+	border:solid 2px;
+}
+
+#indigoTubeGenerator
+{
+	color: #134A63;
+	border:solid 2px;
+}
+
+#purpleTubeGenerator
+{
+	color: #7C4B8D;
+	border:solid 2px;
+}
