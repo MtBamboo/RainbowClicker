@@ -19,7 +19,7 @@
 
 .oNameText
 {
-	width:240px;
+	width:200px;
 }
 
 .counterText
@@ -29,96 +29,47 @@
 
 .buy1button
 {
-	width:80px;
+	width:100px;
+}
+
+/* color Text */
+.redText
+{
+	color: #c6001c;
+}
+
+.orangeText
+{
+	color: #E67928;
+}
+
+.yellowText
+{
+	color: #E3C700;
+}
+
+.greenText
+{
+	color: #00B66E;
+}
+
+.blueText
+{
+	color: #006AB6;
+}
+
+.indigoText
+{
+	color: #134A63;
+}
+
+.purpleText
+{
+	color: #7C4B8D;
 }
 
 /* id */
 #title
 {
 	text-align: center;
-}
-
-#redEssence
-{
-	color: #c6001c;
-	border:solid 2px red;
-}
-
-#orangeEssence
-{
-	color: #E67928;
-	border:solid 2px;
-}
-
-#yellowEssence
-{
-	color: #E3C700;
-	border:solid 2px;
-}
-
-#greenEssence
-{
-	color: #00B66E;
-	border:solid 2px;
-}
-
-#blueEssence
-{
-	color: #006AB6;
-	border:solid 2px;
-}
-
-#indigoEssence
-{
-	color: #134A63;
-	border:solid 2px;
-}
-
-#purpleEssence
-{
-	color: #7C4B8D;
-	border:solid 2px;
-}
-
-/* generator */
-#redGenerator
-{
-	color: #c6001c;
-	border:solid 2px red;
-}
-
-#orangeGenerator
-{
-	color: #E67928;
-	border:solid 2px;
-}
-
-#yellowGenerator
-{
-	color: #E3C700;
-	border:solid 2px;
-}
-
-#greenGenerator
-{
-	color: #00B66E;
-	border:solid 2px;
-}
-
-#blueGenerator
-{
-	color: #006AB6;
-	border:solid 2px;
-}
-
-#indigoGenerator
-{
-	color: #134A63;
-	border:solid 2px;
-}
-
-#purpleGenerator
-{
-	color: #7C4B8D;
-	border:solid 2px;
 }
