@@ -16,6 +16,26 @@ const colorIndex =
  "indigo",
  "purple"];
 
+function singleEssenceMakeButtonClick(index)
+{
+	essenceCounter[index]++;
+}
+
+function singleGeneratorMakeButtonClick(index)
+{
+	if(essenceCounter[index] >= 10)
+	{
+		essenceCounter[index] -= 10;
+		generatorCounter[index]++;
+	}
+}
+
+function allGeneratorMakeButtonClick(index)
+{
+	rainbowCounter--;
+	allGeneratorCounter++;
+}
+
 // 虹購入
 // 全部のエッセンスが存在するか確認して購入する
 function singleRainbowMakeButtonClick(count) {
@@ -35,26 +55,7 @@ function singleRainbowMakeButtonClick(count) {
 	}
 }
 
-function singleGeneratorMakeButtonClick(index)
-{
-	if(essenceCounter[index] >= 10)
-	{
-		essenceCounter[index] -= 10;
-		generatorCounter[index]++;
-	}
-}
-
-function allGeneratorMakeButtonClick(index)
-{
-	rainbowCounter--;
-	allGeneratorCounter++;
-}
-
-function singleEssenceMakeButtonClick(index)
-{
-	essenceCounter[index]++;
-}
-
+// ゲーム更新関数
 function update()
 {
 	// オート加算
@@ -95,7 +96,11 @@ function update()
 	document.getElementById("allGeneratorCounter").innerHTML = "" + allGeneratorCounter.toFixed(2);
 }
 
+// ゲームスタート関数
 function startApp()
 {
+	//TODO データ読み込み
+	
+	//更新開始(setIntervalはID指定で止めない限り永遠に間隔を守って繰り返されるので、)
 	setInterval(update,50);
 }
