@@ -17,11 +17,6 @@
 	border-radius: 2px;
 }
 
-.generatorButton
-{
-	
-}
-
 .oNameText
 {
 	width:240px;
@@ -29,12 +24,12 @@
 
 .counterText
 {
-	text-align: left;
+	text-align: right;
 }
 
 .buy1button
 {
-
+	width:80px;
 }
 
 /* id */
