@@ -1,7 +1,7 @@
 
 
 
-var rainbowCounter = 100;
+var rainbowCounter = 0;
 var rainbowGeneratorCounter = 0;
 var essenceCounter = [0,0,0,0,0,0,0];
 var generatorCounter = [0,0,0,0,0,0,0];
@@ -16,20 +16,22 @@ const colorIndex =
  "indigo",
  "purple"];
 
-function singleRainbowMakeButtonClick(index) {
-	var result = false;
+// 虹購入
+// 全部のエッセンスが存在するか確認して購入する
+function singleRainbowMakeButtonClick(count) {
+	var value = count;
 	for(var index=0; index < 7; index++)
 	{
-		if(essenceCounter[index] < 1)
+		if(essenceCounter[index] < count && value > essenceCounter[index])
 		{
-			this.disabled = true;
-			return;
+			value = essenceCounter[index];
 		}
 	}
-	rainbowCounter++;
+
+	rainbowCounter += value;
 	for(var index=0; index < 7; index++)
 	{
-		essenceCounter[index]--;
+		essenceCounter[index] -= value;
 	}
 }
 
